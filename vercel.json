@@ -1,7 +1,6 @@
 {
     "version": 2,
     "name": "projet7backend",
-    "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }],
     "builds": [
       { "src": "api/index.js", "use": "@vercel/node" }
     ],

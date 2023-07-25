@@ -30,4 +30,8 @@ app.use('/images', express.static(path.join(__dirname, 'images')));
 app.use('/api/books', booksRoutes);
 app.use('/api/auth', userRoutes);
 
+app.use((req, res) => {
+  res.json({message: "L'API est en ligne !!"});
+});
+
 module.exports = app;

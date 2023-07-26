@@ -12,7 +12,7 @@
 
     {
 
-      "source": "/api/(.*)",
+      "source": "/(.*)",
 
       "headers": [
 

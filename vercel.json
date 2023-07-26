@@ -3,8 +3,8 @@
     "name": "projet7backend",
     "builds": [
         {
-            "src": "./index.py",
-            "use": "@vercel/python"
+            "src": "server.js",
+            "use": "@vercel/node"
         }
     ],
     "rewrites": [

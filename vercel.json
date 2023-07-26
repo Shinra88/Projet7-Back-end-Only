@@ -8,13 +8,13 @@
         }
     ],
     "rewrites": [
-        { "source": "/(.*)", "destination": "src/app.js" }
+        { "source": "/api(.*)", "destination": "src/app.js" }
     ],
     "headers": [
 
       {
   
-        "source": "/(.*)",
+        "source": "/api/(.*)",
   
         "headers": [
   

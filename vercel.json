@@ -9,20 +9,6 @@
     ],
     "rewrites": [
         { "source": "/(.*)", "destination": "src/app.js" }
-    ],
-    "headers": [
-        {
-          "source": "/(.*)",
-          "headers": [
-            { "key": "Access-Control-Allow-Origin", "value": "*" }
-          ]
-        },
-        {
-          "source": "/https://projet7-back-end-only.vercel.app/(.*)",
-          "headers": [
-            { "key": "Access-Control-Allow-Origin", "value": "*" }
-          ]
-        }  
     ]
 }
 
